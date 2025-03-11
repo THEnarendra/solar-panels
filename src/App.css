@@ -1,0 +1,32 @@
+:root {
+  /* 🎨 Color Theme */
+  --primary-yellow: #FFC107;
+  --primary-blue: #003366;
+  --secondary-green: #4CAF50;
+  --dark-charcoal: #212121;
+  --accent-gold: #FFD700;
+  --white: #FFFFFF;
+
+  /* 🔠 Fonts */
+  --font-heading: 'Poppins', sans-serif;
+  --font-alt-heading: 'Montserrat', sans-serif;
+  --font-body: 'Lato', sans-serif;
+  --font-alt-body: 'Open Sans', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--white);
+  color: var(--dark-charcoal);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  color: var(--primary-blue);
+}
+
+button {
+  background-color: var(--primary-yellow);
+  color: var(--dark-charcoal);
+  font-family: var(--font-alt-heading);
+}

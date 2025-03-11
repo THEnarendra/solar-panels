@@ -1,0 +1,46 @@
+.custom-navbar {
+    background-color: var(--primary-blue);
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    color: var(--primary-yellow) !important;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .hamburger-icon {
+    color: var(--primary-yellow);
+    font-size: 1.8rem;
+  }
+  
+  .navbar-nav .nav-link {
+    color: var(--white) !important;
+    font-family: var(--font-alt-heading);
+    font-size: 1.2rem;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: var(--accent-gold) !important;
+  }
+  
+  @media (max-width: 991px) {
+    .navbar-nav {
+      text-align: center;
+      background-color: var(--primary-blue);
+      padding: 10px;
+    }
+  
+    .navbar-nav .nav-link {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  
