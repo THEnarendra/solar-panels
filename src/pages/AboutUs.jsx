@@ -89,19 +89,19 @@ const AboutUs = () => {
         <hr className="product-underline mb-4"/>
         <Row className="process-steps">
           <Col md={4} data-aos="fade-up">
-            <div className="step">
+            <div className="step my-2">
               <h3>🔧 Installation & Setup</h3>
               <p>Seamless installation by experts ensuring maximum efficiency.</p>
             </div>
           </Col>
           <Col md={4} data-aos="fade-up">
-            <div className="step">
+            <div className="step my-2">
               <h3>📝 Consultation & Planning</h3>
               <p>Understanding your energy needs and designing the best solution.</p>
             </div>
           </Col>
           <Col md={4} data-aos="fade-up">
-            <div className="step">
+            <div className="step my-2">
               <h3>⚡ Powering Your Home</h3>
               <p>Enjoy clean, renewable, and cost-effective solar energy for you Home/ Industries.</p>
             </div>
