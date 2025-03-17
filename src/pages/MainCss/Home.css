@@ -14,7 +14,6 @@
 
 /* SECTION 2 */
   .solar-categories {
-    width: 100%;
     justify-content: center;
     padding: 50px 50px;
     background-color: #fff;
@@ -267,12 +266,20 @@
     padding: 30px 5%;
   }
 
-  .category-item{
-    margin: 10px 0px;
-    justify-content: center;
+  .category-item {
+    margin: 10px 0;
+    padding: 0; 
+    width: 100%; 
   }
-  .category-card{
-    width: 74vw;
+
+  .category-card {
+    width: 100%; 
+    margin: 0; 
+  }
+
+  .category-image {
+    width: 100%; 
+    border-radius: 10px; 
   }
 
   .section-title {
