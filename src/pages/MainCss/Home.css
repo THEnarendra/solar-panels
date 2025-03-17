@@ -41,6 +41,18 @@
     height: auto;
     display: block;
     border-radius: 10px;
+    position: relative;
+  }
+
+  .category-card::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%; /* Adjust the height of the overlay */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)); /* Black gradient from bottom */
+    border-radius: 10px; /* Match the border radius of the card */
   }
   
   .category-text-overlay {
@@ -56,6 +68,7 @@
     border-radius: 5px;
     width: auto;
     max-width: 80%;
+    z-index: 1;
   }
   
   
