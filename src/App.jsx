@@ -10,6 +10,7 @@ import "aos/dist/aos.css";
 import Aboutus from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import Products from './pages/Products';
+import ProductDetail from './pages/ProductDetail';
 
 AOS.init();
 
@@ -23,6 +24,7 @@ function App() {
           <Route path='/about' element={<Aboutus/>} />
           <Route path='/contact' element={<ContactUs/>} />
           <Route path='/solar-panels' element={<Products/>} />
+          <Route path="/solar-panels/:id" element={<ProductDetail />} /> 
       </Routes>
       <Footer/>
     </Router>

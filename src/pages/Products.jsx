@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom"; // Import Link
 import "./MainCss/Products.css"; 
 import { solarProducts } from "../data/solarProducts"; 
 
@@ -34,7 +35,9 @@ const Products = () => {
 
               {/* Product Details */}
               <div className="product-details">
-                <p className="product-name">{product.name}</p>
+                <Link to={`/solar-panels/${product.id}`} className="product-name-link">
+                  <p className="product-name">{product.name}</p>
+                </Link>
                 <p className="product-price">
                   <span className="old-price">{product.oldPrice}</span>
                   <span className="new-price">Starting from {product.newPrice}</span>
