@@ -23,14 +23,14 @@ const Products = () => {
           <Col lg={3} md={6} sm={12} key={product.id} className="product-col">
             <div className="product-card">
               {/* Discount Badge */}
-              <span className="discount-badge">↓ {product.discount}</span>
+              {/* <span className="discount-badge">↓ {product.discount}</span> */}
 
               {/* Product Image */}
               <div className="product-image">
                 <img src={product.image} alt={product.name} />
-                <div className="hover-overlay">
+                {/* <div className="hover-overlay">
                   <button className="interested-btn">Interested</button>
-                </div>
+                </div> */}
               </div>
 
               {/* Product Details */}

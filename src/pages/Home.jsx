@@ -82,14 +82,12 @@ const Home = () => {
           <p className="section-subtitle">Best Solutions for your Home, Office & Industries</p>
         </div>
 
-        <Row className="justify-content-center">
+        <Row className="justify-content-center category-row">
           {categories.map((category) => (
             <Col key={category.id} md={4} sm={6} xs={12} className="category-item" data-aos="fade-up">
               <div className="category-card">
-                <img src={category.image} alt={category.name} className="category-image" />
-                <div className="category-overlay">
-                  <button className="category-btn">{category.name}</button>
-                </div>
+              <img src={category.image} alt={category.name} className="category-image" />
+              <div className="category-text-overlay">{category.name}</div>
               </div>
             </Col>
           ))}
@@ -152,17 +150,12 @@ const Home = () => {
         {solarProducts.map((product) => (
           <Col lg={3} md={6} sm={12} key={product.id} className="product-col">
             <div className="product-card">
-              <span className="discount-badge">↓ {product.discount}</span>
 
               <div className="product-image">
                 <img src={product.image} alt={product.name} />
-                <div className="hover-overlay">
-                  <button className="interested-btn">Interested</button>
-                </div>
               </div>
 
               <div className="product-details">
-                {/* <p className="product-name">{product.name}</p> */}
                 <Link to={`/solar-panels/${product.id}`} className="product-name-link">
                                   <p className="product-name">{product.name}</p>
                                 </Link>

@@ -30,49 +30,35 @@
     font-size: 16px;
     color: gray;
   }
-  
+
   .category-card {
     position: relative;
     overflow: hidden;
-    border-radius: 12px;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .category-card:hover {
-    transform: scale(1.05);
+    border-radius: 10px;
   }
   
   .category-image {
     width: 100%;
     height: auto;
-    border-radius: 12px;
-    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.6);
-    object-fit: cover;
+    display: block;
+    border-radius: 10px;
   }
   
-  .category-overlay {
+  .category-text-overlay {
     position: absolute;
     bottom: 15px;
     left: 50%;
     transform: translateX(-50%);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    width: auto;
+    max-width: 80%;
   }
   
-  .category-btn {
-    color: white;
-    border: none;
-    width: 10rem;
-    padding: 5% 15%;
-    font-size: 1.2rem;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: 0.3s ease;
-  }
-  
-  .category-btn:hover {
-    background-color: #003366;
-  }
-  
-
   
 /* SECTION 3 */
 .feature-section {
@@ -103,7 +89,7 @@
   }
 
   .features-container {
-    width: 100%;
+    /* width: 100%; */
     padding: 0 6%;
     background-color: #f7f7f7;
   }
@@ -117,21 +103,21 @@
 .yourSwiper {
   height: 65vh;
   width: 30vw;
-  margin: auto; /* Centering */
+  margin: auto; 
 }
 
 .swiperImg {
   height: 65vh;
-  width: 100%; /* Ensures it fills the container */
+  width: 100%; 
   object-fit: cover;
-  border-radius: 10px; /* Adds some smooth rounded edges */
+  border-radius: 10px; 
 }
 
 @media screen and (max-width: 997px) {
   .yourSwiper {
       height: 60vh;
-      width: 90%; /* Better use of screen space */
-      margin: 3% auto; /* Centering with some margin */
+      width: 90%;
+      margin: 3% auto;
   }
 
   .swiperImg {
@@ -141,8 +127,7 @@
   }
 }
 
-/* Section 5 */
-  
+/* Section 5 */ 
 .product-categories {
   justify-content: center;
   padding: 50px 50px;
@@ -150,9 +135,7 @@
 }
 
 
-/* 🌟 Solar Products Section */
 .solar-products-container {
-  width: 100%;
   justify-content: center;
   text-align: center;
   padding: 50px 10%;
@@ -165,7 +148,6 @@
   margin-bottom: 30px;
 }
 
-/* 🌟 Product Cards */
 .product-col {
   margin-bottom: 20px;
 }
@@ -184,7 +166,6 @@
   transform: translateY(-5px);
 }
 
-/* 🔥 Discount Badge */
 .discount-badge {
   position: absolute;
   top: 10px;
@@ -197,7 +178,6 @@
   border-radius: 5px;
 }
 
-/* 📌 Product Image */
 .product-image {
   position: relative;
   overflow: hidden;
@@ -213,7 +193,6 @@
   opacity: 0.7;
 }
 
-/* ✅ Interested Button on Hover */
 .hover-overlay {
   position: absolute;
   top: 0;
@@ -247,9 +226,12 @@
   background: darkred;
 }
 
-/* 📌 Product Details */
 .product-details {
   padding: 15px;
+}
+
+.product-name-link{
+  text-decoration: none;
 }
 
 .product-name {
@@ -280,14 +262,17 @@
   font-weight: bold;
 }
 
-/* 📱 Responsive Design */
 @media screen and (max-width: 768px) {
   .solar-products-container {
     padding: 30px 5%;
   }
 
   .category-item{
-    padding: 10px;
+    margin: 10px 0px;
+    justify-content: center;
+  }
+  .category-card{
+    width: 74vw;
   }
 
   .section-title {
@@ -337,5 +322,5 @@
 }
 
 .view-all-btn:hover {
-  color: #0056b3;  /* Darker shade on hover */
+  color: #0056b3;  
 }

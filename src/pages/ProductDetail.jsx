@@ -25,7 +25,6 @@ const ProductDetail = () => {
             <span className="old-price">{product.oldPrice}</span>  
             <span className="new-price">{product.newPrice}</span>
           </p>
-          <button className="buy-now-btn">Buy Now</button>
         </Col>
       </Row>
     </div>

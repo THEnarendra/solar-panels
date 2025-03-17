@@ -23,7 +23,6 @@ const Footer = () => {
             <ul className="footer-links">
               <li><a href="/">Home</a></li>
               <li><a href="/about">About Us</a></li>
-              <li><a href="/services">Services</a></li>
               <li><a href="/contact">Contact</a></li>
             </ul>
           </Col>
@@ -36,9 +35,9 @@ const Footer = () => {
 
             {/* Social Media */}
             <div className="social-icons">
-              <a href="#" className="social-icon"><FaFacebookF /></a>
-              <a href="#" className="social-icon"><FaInstagram /></a>
-              <a href="#" className="social-icon"><FaLinkedinIn /></a>
+              <a href="https://www.facebook.com/" className="social-icon"><FaFacebookF /></a>
+              <a href="https://www.instagram.com/" className="social-icon"><FaInstagram /></a>
+              <a href="https://www.linkedin.com/feed/" className="social-icon"><FaLinkedinIn /></a>
             </div>
           </Col>
         </Row>
