@@ -8,6 +8,8 @@ import ms1 from './ms1.jpg';
 import ms2 from './ms2.jpg'; 
 import ms3 from './ms3.jpg';
 import ms4 from './ms4.jpg';
+import testImg from './test.jpg';
+import partner from './partner.png';
 
 // Export as an Object
 const images = {
@@ -15,6 +17,8 @@ const images = {
   mobile: [mobileSlide1, mobileSlide2],
   solar,
   slide: [ms1, ms2, ms3, ms4],
+  testImg,
+  partner,
 };
 
 export default images;

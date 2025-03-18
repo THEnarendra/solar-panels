@@ -2,6 +2,7 @@ import React from "react";
 import "./MainCss/ContactUs.css";
 import { Row, Col, Button } from "react-bootstrap";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
+import FAQ from "../components/FAQ/Faq";
 
 const ContactUs = () => {
   const phoneNumber = "+919876543210"; // Replace with actual number
@@ -17,7 +18,6 @@ const ContactUs = () => {
           <p data-aos="fade-up">Let's power your world with solar energy</p>
         </div>
       </div>
-
       {/* Contact Details Section */}
       <Row className="contact-section justify-content-center">
         <Col lg={5} md={6} sm={12} className="contact-info" data-aos="fade-right">
@@ -54,6 +54,11 @@ const ContactUs = () => {
           </div>
         </Col>
       </Row>
+
+      <Row className="faq-section"></Row>
+        <Col md={8} className="mx-auto">
+          <FAQ />
+        </Col>
     </div>
   );
 };

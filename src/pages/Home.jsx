@@ -11,6 +11,9 @@ import 'swiper/css/effect-cards';
 import { EffectCards, Autoplay} from 'swiper/modules';
 import {solarProducts} from '../data/solarProducts'
 import { Link } from 'react-router-dom';
+import Testimonials from '../components/Testimonials/Testimonials';
+import CTABanner from '../components/CTA Banner/CTAbanner';
+import Partners from '../components/Partners/Partners';
 
 const imgArray = [
   { id: 1, url: images.slide[0] },
@@ -174,6 +177,18 @@ const Home = () => {
         </Link>
       </Row>
     </Row>
+
+{/* Section 6 */}
+{/* Testimonials */}
+    <Testimonials />
+
+{/* Section 7 */}
+{/* CTA Banner */}
+    <CTABanner/>
+
+{/* Section 8 */}
+{/* Partners */}
+    <Partners/>
 
   </>        
   )

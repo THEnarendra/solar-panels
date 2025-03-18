@@ -1,0 +1,54 @@
+/* CTABanner.css */
+.cta-banner {
+    padding: 80px 0;
+    background-color: #003366; /* Dark blue background */
+    color: #fff;
+    text-align: left;
+  }
+  
+  .cta-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .cta-subtitle {
+    font-size: 1.2rem;
+    color: #f8f9fa; /* Light gray for subtitle */
+    margin-bottom: 0;
+  }
+  
+  .cta-button {
+    background-color: #ffb400; /* Yellow button */
+    color: #003366; /* Dark blue text */
+    font-weight: bold;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e6a200; /* Darker yellow on hover */
+    transform: translateY(-3px);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .cta-banner {
+      padding: 40px 0;
+    }
+  
+    .cta-title {
+      font-size: 2rem;
+    }
+  
+    .cta-subtitle {
+      font-size: 1rem;
+    }
+  
+    .cta-button {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }

@@ -1,0 +1,35 @@
+/* Partners.css */
+.partners-section {
+    padding: 60px 0;
+    background-color: #f8f9fa; /* Light background */
+  }
+  
+  .partners-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #003366; /* Dark blue text */
+    margin-bottom: 30px;
+  }
+  
+  .partner-logo {
+    max-width: 150px;
+    height: auto;
+    filter: grayscale(100%); /* Make logos grayscale */
+    transition: filter 0.3s ease, transform 0.3s ease;
+  }
+  
+  .partner-logo:hover {
+    filter: grayscale(0%); /* Restore color on hover */
+    transform: scale(1.1);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .partners-section h2 {
+      font-size: 2rem;
+    }
+  
+    .partner-logo {
+      max-width: 120px;
+    }
+  }
