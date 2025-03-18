@@ -11,7 +11,7 @@ const faqs = [
   {
     id: 1,
     question: "How do solar panels work?",
-    answer: "Solar panels convert sunlight into electricity using photovoltaic cells.",
+    answer: "Solar panels DO convert sunlight into electricity using photovoltaic cells.",
   },
   {
     id: 2,
