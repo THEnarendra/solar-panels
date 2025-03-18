@@ -12,7 +12,7 @@ import { EffectCards, Autoplay} from 'swiper/modules';
 import {solarProducts} from '../data/solarProducts'
 import { Link } from 'react-router-dom';
 import Testimonials from '../components/Testimonials/Testimonials';
-import CTABanner from '../components/CTA Banner/CTAbanner';
+import CTABanner from '../components/CTABanner/CTABanner';
 import Partners from '../components/Partners/Partners';
 
 const imgArray = [
