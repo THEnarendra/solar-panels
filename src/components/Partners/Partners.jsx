@@ -21,7 +21,7 @@ const Partners = () => {
         <h2 className="text-center mb-4" data-aos="fade-up">Our Trusted Partners</h2>
         <Row className="justify-content-center align-items-center">
           {partners.map((partner) => (
-            <Col key={partner.id} md={3} sm={6} className="text-center" data-aos="fade-up" data-aos-delay={partner.id * 100}>
+            <Col key={partner.id} md={3} sm={6} xs={6} className="text-center mt-2" data-aos="fade-up" data-aos-delay={partner.id * 100}>
               <img src={partner.logo} alt={partner.name} className="partner-logo" />
             </Col>
           ))}
