@@ -119,3 +119,11 @@
   .testimonial {
     font-style: italic;
   }
+
+
+  @media screen and (max-width: 768px) {
+    .about-feature-item {
+      width: 350px;
+    }
+    
+  }

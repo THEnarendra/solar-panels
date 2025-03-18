@@ -18,7 +18,7 @@ const CTABanner = () => {
           </Col>
           <Col md={4} className="text-end" data-aos="fade-left">
             <Button variant="light" size="lg" className="cta-button" href="/contact">
-              Get Started
+              Get Started Now
             </Button>
           </Col>
         </Row>
