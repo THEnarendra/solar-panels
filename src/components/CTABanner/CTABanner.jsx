@@ -4,6 +4,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './CTABanner.css';
+import { Link } from 'react-router-dom';
 
 const CTABanner = () => {
   return (
@@ -17,9 +18,15 @@ const CTABanner = () => {
             </p>
           </Col>
           <Col md={4} className="text-end" data-aos="fade-left">
-            <Button variant="light" size="lg" className="cta-button" href="/contact">
-              Get Started Now
-            </Button>
+          <Button
+  variant="light"
+  size="lg"
+  className="cta-button"
+  as={Link} 
+  to="/contact" 
+>
+  Get Started Now
+</Button>
           </Col>
         </Row>
       </Container>

@@ -2,6 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { Row, Col } from "react-bootstrap";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaEnvelope, FaPhone } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -21,10 +22,16 @@ const Footer = () => {
           <Col md={4} className="footer-section" data-aos="fade-up">
             <h3>Quick Links</h3>
             <ul className="footer-links">
-              <li><a href="/">Home</a></li>
-              <li><a href="/about">About Us</a></li>
-              <li><a href="/contact">Contact</a></li>
-            </ul>
+  <li>
+    <Link to="/">Home</Link>
+  </li>
+  <li>
+    <Link to="/about">About Us</Link>
+  </li>
+  <li>
+    <Link to="/contact">Contact</Link>
+  </li>
+</ul>
           </Col>
 
           {/* Contact Info */}
