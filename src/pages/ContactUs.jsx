@@ -2,7 +2,7 @@ import React from "react";
 import "./MainCss/ContactUs.css";
 import { Row, Col, Button } from "react-bootstrap";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
-import FAQ from "../components/FAQ/Faq";
+import FAQ from "../components/FAQ/FAQ";
 
 const ContactUs = () => {
   const phoneNumber = "+919876543210"; // Replace with actual number

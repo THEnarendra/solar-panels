@@ -190,6 +190,7 @@ const Home = () => {
 {/* Partners */}
     <Partners/>
 
+{/* More */}
   </>        
   )
 }
