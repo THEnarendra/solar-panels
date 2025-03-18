@@ -1,10 +1,9 @@
 // components/FAQ.jsx
 import React, { useState } from 'react';
 import { Row, Col, Accordion } from 'react-bootstrap';
-import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './FAQ.css';
+import './Faq.css';
 import { Container } from 'react-bootstrap';
 
 const faqs = [
@@ -25,7 +24,7 @@ const faqs = [
   },
 ];
 
-const FAQ = () => {
+const Faq = () => {
   return (
     <section id="faq" className="py-5">
         <h2 className="text-center mb-4" data-aos="fade-up">Frequently Asked Questions</h2>
@@ -45,4 +44,4 @@ const FAQ = () => {
   );
 };
 
-export default FAQ;
+export default Faq;

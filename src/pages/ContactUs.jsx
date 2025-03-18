@@ -2,7 +2,7 @@ import React from "react";
 import "./MainCss/ContactUs.css";
 import { Row, Col, Button } from "react-bootstrap";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
-import FAQ from "../components/FAQ/FAQ.jsx";
+import Faq from "../components/FAQ/Faq";
 
 const ContactUs = () => {
   const phoneNumber = "+919876543210"; // Replace with actual number
@@ -57,7 +57,7 @@ const ContactUs = () => {
 
       <Row className="faq-section"></Row>
         <Col md={8} className="mx-auto">
-          <FAQ />
+          <Faq/>
         </Col>
     </div>
   );
